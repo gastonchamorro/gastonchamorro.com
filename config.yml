@@ -1,0 +1,54 @@
+baseURL: '/'
+languageCode: 'en-us'
+title: 'Gaston Chamorro'
+paginate: 5
+theme: 'PaperMod'
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+params:
+  profileMode:
+    enabled: true
+    title: "Gaston Chamorro"
+    imageUrl: "img/me.jpeg" 
+    imageTitle: "My logo"
+    imageWidth: 180
+    imageHeight: 180
+
+  env: production
+  title: Gaston Chamorro
+  description: "Gaston personal site/blog for fun, share and learning purposes"
+  keywords: [Blog, Portfolio]
+  author: Gaston Chamorro
+
+  defaultTheme: dark
+  disableThemeToggle: false
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  # ShowToc: true
+  # TocOpen: true
+  
+menu:
+  main:
+    - identifier: about
+      name: About Me
+      url: /about/
+      weight: 10
+    # - identifier: archives
+    #   name: Archives
+    #   url: /archives/
+    #   weight: 20
+    # - identifier: categories
+    #   name: Categories
+    #   url: /categories/
+    #   weight: 30
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags/
+    #   weight: 40
