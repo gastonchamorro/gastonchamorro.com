@@ -24,7 +24,7 @@ params:
   keywords: [Blog, Portfolio]
   author: Gaston Chamorro
 
-  defaultTheme: dark
+  defaultTheme: auto
   disableThemeToggle: false
   ShowBreadCrumbs: true
   ShowReadingTime: true
